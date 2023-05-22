@@ -30,7 +30,7 @@ const JokeButton = () => {
     return (
       <div id="joke-container">
         <div id="joke" >
-          <button onClick={fetchJoke} disabled={isPlaying}>Get a joke</button>
+          <button onClick={fetchJoke} disabled={isPlaying}>Wanna hear a joke!</button>
           <p className={!isPlaying ? 'fade-out' : ''}>{joke}</p>
         </div>
       </div>

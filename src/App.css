@@ -34,6 +34,21 @@ button{
   border-radius: 40px;
   position: fixed;
   margin-bottom: 100px;
+  cursor: pointer;
+  background-color: #a24c31;
+  color: white;
+}
+button:hover{
+  color: #69210b;
+  background-color: #ffffff;
+}
+button:disabled{
+  cursor: not-allowed;
+  opacity: .2;
+}
+button:disabled:hover{
+  background-color: #a24c31;
+  color: white;
 }
 p{
   margin: auto;
